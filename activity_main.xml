@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Login_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/myTitle"
+
+        />
+
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username:"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        />
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        />
+
+
+
+      <Button
+        android:id="@+id/login"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+          android:layout_marginLeft="130dp"
+          android:layout_marginTop="300dp"/>
+
+    <Button
+        android:id="@+id/regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="300dp"
+        android:onClick="buttonClickOne"
+        android:text="regist" />
+
+    <EditText
+        android:id="@+id/Uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="200dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="admin"/>
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/myBlue"
+        />
+
+
+</RelativeLayout>
